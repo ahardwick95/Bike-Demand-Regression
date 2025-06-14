@@ -7,7 +7,7 @@ This project explores the prediction of bike rental counts using regression tech
 ## 📊 Dataset
 
 - **Source**: [Bike Sharing - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
-- The dataset includes daily and hourly records of rental bikes in the Capital Bikeshare system, along with associated weather and seasonal data.
+- The dataset includes daily  records of rental bikes in the Capital Bikeshare system, along with associated weather and seasonal data.
 
 ---
 
