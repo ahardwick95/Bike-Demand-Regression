@@ -46,13 +46,15 @@ Predict the total rental count of bikes using features such as weather condition
 - Provides results to identify optimal learning configurations
 
 ### 🌐 Deployment
-- Deployed with [Streamlit](https://streamlit.io/)
+- Deployed with Streamlit
 - Interactive app to:
   - Compare model performance
   - Display EDA findings
   - Select and view model predictions
 
 ---
-
+### Dataset Citation
+- Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5W894.
+---
 ## 📂 Repository Structure
 
