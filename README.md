@@ -7,7 +7,7 @@ This project explores the prediction of bike rental counts using regression tech
 ## 📊 Dataset
 
 - **Source**: [Bike Sharing - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
-- The dataset includes daily  records of rental bikes in the Capital Bikeshare system, along with associated weather and seasonal data.
+- The dataset includes daily records of rental bikes in the Capital Bikeshare system, along with associated weather and seasonal data.
 
 ---
 
@@ -18,7 +18,7 @@ Predict the total rental count of bikes using features such as weather condition
 
 ---
 
-## 🛠️ Features of This Project
+## 🛠️ Features of this project
 
 ### ✅ Custom Regression Model
 - Built entirely from scratch using Python
@@ -50,6 +50,7 @@ Predict the total rental count of bikes using features such as weather condition
 - Interactive app to:
   - Compare model performance
   - Display EDA findings
+  - Display Feature Importance values
   - Select and view model predictions
 
 ---
@@ -59,7 +60,7 @@ Predict the total rental count of bikes using features such as weather condition
 ### Future enhancements to custom regression model
 - Normal equation implementation
 - Lasso and Ridge regression options
-- Stochastic and mini-batch Gradient-descent variations
+- Stochastic and Mini-batch Gradient-descent variations
 ---
 
 ## 📂 Repository Structure
