@@ -56,10 +56,25 @@ Predict the total rental count of bikes using features such as weather condition
 ### Dataset Citation
 - Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5W894.
 ---
-### Future Enhancements to custom regression model
+### Future enhancements to custom regression model
 - Normal equation implementation
 - Lasso and Ridge regression options
 - Stochastic and mini-batch Gradient-descent variations
 ---
+
 ## 📂 Repository Structure
 
+---
+## 🖼️ Streamlit App Preview
+
+### 📊 Dashboard Overview
+
+![App Overview](images/streamlit_home.png)
+
+### 📈 EDA Example
+
+![EDA Output](images/eda_plot.png)
+
+### 🤖 Model Comparison
+
+![Model Comparison](images/model_comparison.png)
