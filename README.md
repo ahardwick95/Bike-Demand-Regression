@@ -69,12 +69,12 @@ Predict the total rental count of bikes using features such as weather condition
 
 ### 📊 Dashboard Overview
 
-![App Overview](images/streamlit_home.png)
+![App Overview](images/Home_Application.png)
 
 ### 📈 EDA Example
 
-![EDA Output](images/eda_plot.png)
+![EDA Output](images/EDA_2011.png)
 
 ### 🤖 Model Comparison
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/Model_Comparison.png)
