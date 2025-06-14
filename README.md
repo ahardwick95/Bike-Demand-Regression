@@ -1,94 +1,58 @@
-🚲 Bike Sharing Demand Prediction
-This project focuses on predicting the total rental count from the Capital Bikeshare system using a custom-built regression model and benchmarking it against standard Scikit-learn models. A Streamlit dashboard is also included to interactively explore data insights and model comparisons.
+# 🚲 Bike Sharing Demand Prediction with Custom Regression Model
 
-📊 Dataset
-Source: Bike Sharing - UCI Machine Learning Repository
+This project explores the prediction of bike rental counts using regression techniques, including a fully custom-built regression model. The goal is to analyze key features influencing bike usage and evaluate the performance of different models. A Streamlit application is also included to showcase exploratory data analysis (EDA) insights and interactive model comparisons.
 
-The dataset contains hourly and daily count of rental bikes along with corresponding weather and seasonal information.
+---
 
-📌 Problem Statement
-Objective:
-To identify key features influencing the bike rental count and to build regression models to accurately predict the number of rentals based on historical data.
+## 📊 Dataset
 
-🛠️ Project Structure
-eda/ - Jupyter notebook(s) for Exploratory Data Analysis
+- **Source**: [Bike Sharing - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
+- The dataset includes daily and hourly records of rental bikes in the Capital Bikeshare system, along with associated weather and seasonal data.
 
-models/
+---
 
-custom_regression.py - A custom regression model built from scratch
+## 🧠 Problem Definition
 
-metrics.py - Custom implementations of MSE, RMSE, MAE, and R²
+**Objective**:  
+Predict the total rental count of bikes using features such as weather conditions, time, and seasonality. Identify the most influential features and compare model performance.
 
-tuner.py - Hyperparameter tuning script for learning rate exploration
+---
 
-tester.ipynb - Notebook to test the custom model with metrics
+## 🛠️ Features of This Project
 
-comparison/ - Jupyter notebook comparing custom model with Scikit-learn models
+### ✅ Custom Regression Model
+- Built entirely from scratch using Python
+- Implements custom versions of the following metrics:
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - Mean Absolute Error (MAE)
+  - R² Score (Coefficient of Determination)
 
-app/
+### 🧪 Model Evaluation & Benchmarking
+- Models evaluated:
+  - Custom Regression Model
+  - Scikit-learn Linear Regression
+  - Scikit-learn Decision Tree Regressor
+  - Scikit-learn Random Forest Regressor
+- Evaluation performed using both custom and scikit-learn metrics
 
-streamlit_app.py - Streamlit dashboard for interactive visualizations and model comparison
+### 🔍 Exploratory Data Analysis (EDA)
+- Seasonal, temporal, and weather-based trends visualized
+- Correlation heatmaps and boxplots
+- Insights displayed in the Streamlit dashboard
 
-📈 Models Trained
-✅ Custom Regression Model (from scratch)
+### ⚙️ Hyperparameter Tuning
+- Includes a script to tune the learning rate of the custom regression model
+- Provides results to identify optimal learning configurations
 
-✅ Scikit-learn Linear Regression
+### 🌐 Deployment
+- Deployed with [Streamlit](https://streamlit.io/)
+- Interactive app to:
+  - Compare model performance
+  - Display EDA findings
+  - Select and view model predictions
 
-✅ Scikit-learn Decision Tree Regressor
+---
 
-✅ Scikit-learn Random Forest Regressor
-
-Each model was trained and evaluated on the dataset using common metrics.
-
-📊 Exploratory Data Analysis (EDA)
-Key insights were derived from:
-
-Seasonality trends
-
-Weather conditions
-
-Temporal features (hour, day, holiday, working day)
-
-Correlation heatmaps and visual distributions
-
-The findings are also embedded into the Streamlit dashboard for easy interpretation.
-
-⚙️ Custom Regression Model
-This project includes a hand-crafted regression model trained using gradient descent and evaluated using custom metric implementations:
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-Mean Absolute Error (MAE)
-
-Coefficient of Determination (R²)
-
-A hyperparameter tuning script (tuner.py) is included to find optimal learning rates.
-
-🧪 Model Evaluation
-Models were evaluated and compared using:
-
-Training error
-
-Testing error
-
-Visual plots of predicted vs actual values
-
-Metric scores (MSE, RMSE, MAE, R²)
-
-🚀 Deployment
-The following models are deployed using Streamlit:
-
-Custom Regression Model
-
-Random Forest Regressor
-
-Streamlit features include:
-
-Model performance comparison
-
-Visual EDA summary
-
-Interactive parameter insights
+## 📂 Repository Structure
 
