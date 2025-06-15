@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 
-The_Forest=load('Forest_Regressor.joblib')
+The_Forest=load("Forest_Regressor.joblib")
 MyModel=load('My_Model.joblib')
 def comparator(X,Y):
     st.markdown("<h1 style='text-align: center;'> My Model (blue) Vs Random Forest (red) </h1>", unsafe_allow_html=True)
