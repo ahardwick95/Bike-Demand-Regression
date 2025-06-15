@@ -10,7 +10,7 @@ def The_Features(df):
     X=df.drop(['casual','registered','cnt','dteday'],axis=1)
 
     # Load up the Random Forest model we trained
-    Forest_Model=load('Forest_Regressor.joblib')
+    Forest_Model=load('Streamlit_App/Forest_Regressor.joblib')
     
     # stores how important each feature is to determing the target variable
     F_Importances=Forest_Model.feature_importances_
