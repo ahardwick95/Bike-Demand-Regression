@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 
 
-x=load("My_Model.joblib")
+ x=load("My_Model.joblib")
  The_Forest=load("Forest_Regressor.joblib")
 
 def Predictor():
-   
+    x
     st.markdown("<h1 style='text-align: center;'>  Bike Rentel Predictor \n</h1>", unsafe_allow_html=True)
     st.markdown(" Please input data the following data to predict total amount of bikes rented : ")
     Instant = st.number_input("Give a specific day, day 1 is 01/01/2011 , day 731 is 12/31/2012 ", value=0, step=1)
