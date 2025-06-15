@@ -7,7 +7,7 @@ import numpy as np
 
 
 def Predictor():
-    The_Forest=load("Forest_Regressor.joblib")
+    The_Forest=load("Streamlit_App/Forest_Regressor.joblib")
     
     st.markdown("<h1 style='text-align: center;'>  Bike Rentel Predictor \n</h1>", unsafe_allow_html=True)
     st.markdown(" Please input data the following data to predict total amount of bikes rented : ")
