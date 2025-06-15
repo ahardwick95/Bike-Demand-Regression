@@ -10,7 +10,7 @@ def Predictor():
     The_Forest=load("Streamlit_App/Forest_Regressor.joblib")
     
     st.markdown("<h1 style='text-align: center;'>  Bike Rentel Predictor \n</h1>", unsafe_allow_html=True)
-    st.markdown(" Please input data the following data to predict total amount of bikes rented : ")
+    st.markdown(" Please input following data to predict total amount of bikes rented : ")
     Instant = st.number_input("Give a specific day, day 1 is 01/01/2011 , day 731 is 12/31/2012 ", value=0, step=1)
     Season = st.number_input(" What season is it?  Winter : 1  Spring : 2  Summer : 3  Fall : 4",min_value=1, max_value=4, value=1, step=1)
     Year = st.number_input(" What's the year ?,  0 is 2011 , 1 is 2012?", min_value=0, max_value=1,value=0, step=1)
