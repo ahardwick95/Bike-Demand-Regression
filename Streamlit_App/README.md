@@ -13,7 +13,7 @@ Streamlit_App/
 ├── My_Model.joblib # My model saved with joblib  
 ├── requirements.txt # dependencies needed to run application  
 ├── Bike_pic.jpg # picture display on splash page of app  
-data/
+data/  
 ├── day.csv # Daily Bikeshare Data from UCI repository   
 ├── README.md
 
