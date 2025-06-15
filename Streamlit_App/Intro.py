@@ -12,4 +12,4 @@ def Intro():
 
 
 
-    st.image("Bike_pic.jpg",use_container_width=True)
+    st.image("Streamlit_App/Bike_pic.jpg",use_container_width=True)
