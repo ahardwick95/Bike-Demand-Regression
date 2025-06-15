@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-
+x=load("My_Model.joblib")
  The_Forest=load("Forest_Regressor.joblib")
 
 def Predictor():
