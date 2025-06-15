@@ -64,10 +64,11 @@ Predict the total rental count of bikes using features such as weather condition
 ---
 
 ## 📂 Repository Structure
-
-├── Bike_Data_EDA.ipynb # Exploratory Data Analysis of bike share data  
-├── BikeShare_Model_Train_Eval.ipynb # Model training and evaluation notebook  
-└── Model_test.ipynb # AModel testing experiments for my regression model
+Bike_Demand_Regression/
+├── Notebooks # Contains all the notebooks used in this project such EDA notebook 
+├── Scripts # Contains scripts such as the custom made regression model 
+├── Streamlit_App # Contains all the code needed to deploy the streamlit application for this project
+└── image # contains the preview picutres of the streamlit application
 ---
 ## 🖼️ Streamlit App Preview
 
