@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Bike Demand Predictor",layout="wide")
 
-df = pd.read_csv('data/day.csv')
+df = pd.read_csv("data/day.csv")
 
 # THe following will exclusively be used in the Model_V_Forest function
 df_2 = df.drop(['dteday','casual','registered'],axis=1)
