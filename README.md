@@ -64,11 +64,11 @@ Predict the total rental count of bikes using features such as weather condition
 ---
 
 ## 📂 Repository Structure
-Bike_Demand_Regression/
-├── Notebooks # Contains all the notebooks used in this project such EDA notebook 
-├── Scripts # Contains scripts such as the custom made regression model 
-├── Streamlit_App # Contains all the code needed to deploy the streamlit application for this project
-└── image # contains the preview picutres of the streamlit application
+Bike_Demand_Regression/  
+├── Notebooks # Contains all the notebooks used in this project such EDA notebook   
+├── Scripts # Contains scripts such as the custom made regression model   
+├── Streamlit_App # Contains all the code needed to deploy the streamlit application for this project  
+└── image # contains the preview picutres of the streamlit application  
 ---
 ## 🖼️ Streamlit App Preview
 
